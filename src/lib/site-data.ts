@@ -1,5 +1,5 @@
 export const INSTAGRAM_HANDLE = "@gl.equipe";
-export const INSTAGRAM_URL = "https://instagram.com/gl.equipe";
+export const INSTAGRAM_URL = "https://www.instagram.com/gl.equipe";
 
 export const NAV_LINKS = [
   { href: "inicio", label: "Início" },

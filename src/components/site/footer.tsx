@@ -9,13 +9,10 @@ export function Footer() {
           <span className="flex size-9 items-center justify-center rounded-full border border-brand-blue-bright/45 bg-[radial-gradient(circle_at_32%_28%,#16223f,#060a16)]">
             <CrownIcon className="size-[22px] text-brand-blue-bright" />
           </span>
-          <span className="text-[13px] leading-tight">
-            <strong className="block font-display text-base font-extrabold italic">EQUIPE GL</strong>
-            <span className="text-brand-dim">IDL DIGITAL</span>
-          </span>
+          <strong className="font-display text-base font-extrabold italic">EQUIPE GL</strong>
         </div>
 
-        <p className="text-center text-[13px] text-brand-dim">© 2026 IDL Digital. Todos os direitos reservados.</p>
+        <p className="text-center text-[13px] text-brand-dim">© 2026 Equipe GL. Todos os direitos reservados.</p>
 
         <div className="flex flex-col items-end gap-2 max-sm:items-center">
           <span className="text-[11px] tracking-[0.2em] text-brand-dim uppercase">Segue a gente</span>

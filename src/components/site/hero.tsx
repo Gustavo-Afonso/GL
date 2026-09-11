@@ -21,7 +21,7 @@ export function Hero() {
       <div className="relative mx-auto grid max-w-6xl items-center gap-10 px-5 md:gap-14 md:grid-cols-[1.05fr_.95fr]">
         <div className="flex flex-col items-start gap-4.5">
           <BlurFade inView>
-            <p className="text-xs font-bold tracking-[0.35em] text-brand-gold uppercase">IDL DIGITAL</p>
+            <p className="text-xs font-bold tracking-[0.35em] text-brand-gold uppercase">Equipe GL</p>
           </BlurFade>
 
           <BlurFade inView delay={0.05}>

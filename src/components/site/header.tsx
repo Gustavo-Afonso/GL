@@ -48,9 +48,6 @@ export function Header() {
           </span>
           <span className="font-display text-[19px] leading-none font-extrabold italic tracking-wide">
             EQUIPE GL
-            <span className="mt-[3px] block font-body text-[9px] font-bold tracking-[0.28em] text-brand-gold not-italic">
-              IDL DIGITAL
-            </span>
           </span>
         </a>
 

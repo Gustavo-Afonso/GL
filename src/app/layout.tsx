@@ -23,15 +23,15 @@ const caveat = Caveat({
   display: "swap",
 });
 
-const siteUrl = "https://equipegl.idldigital.site";
+const siteUrl = "https://equipegl.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: "Equipe GL — Seja um Parceiro | IDL Digital",
+  title: "Equipe GL — Seja um Parceiro",
   description:
     "Faça parte de um grupo de criadores que ganha junto. Jogos de qualidade, suporte dedicado e as melhores oportunidades do mercado.",
   openGraph: {
-    title: "Equipe GL — Seja um Parceiro | IDL Digital",
+    title: "Equipe GL — Seja um Parceiro",
     description:
       "Faça parte de um grupo de criadores que ganha junto. Jogos de qualidade, suporte dedicado e as melhores oportunidades do mercado.",
     url: siteUrl,
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Equipe GL — Seja um Parceiro | IDL Digital",
+    title: "Equipe GL — Seja um Parceiro",
     description:
       "Faça parte de um grupo de criadores que ganha junto. Jogos de qualidade, suporte dedicado e as melhores oportunidades do mercado.",
   },
