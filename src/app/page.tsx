@@ -8,7 +8,7 @@ import { ComoFunciona } from "@/components/site/como-funciona";
 import { Faq } from "@/components/site/faq";
 import { CtaFinal } from "@/components/site/cta-final";
 import { Footer } from "@/components/site/footer";
-import { FloatingWhatsapp } from "@/components/site/floating-whatsapp";
+import { FloatingInstagram } from "@/components/site/floating-instagram";
 
 export default function Home() {
   return (
@@ -25,7 +25,7 @@ export default function Home() {
         <CtaFinal />
       </main>
       <Footer />
-      <FloatingWhatsapp />
+      <FloatingInstagram />
     </>
   );
 }

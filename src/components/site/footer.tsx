@@ -1,4 +1,5 @@
 import { CrownIcon, InstagramIcon } from "./brand-icons";
+import { INSTAGRAM_HANDLE, INSTAGRAM_URL } from "@/lib/site-data";
 
 export function Footer() {
   return (
@@ -19,13 +20,13 @@ export function Footer() {
         <div className="flex flex-col items-end gap-2 max-sm:items-center">
           <span className="text-[11px] tracking-[0.2em] text-brand-dim uppercase">Segue a gente</span>
           <a
-            href="https://instagram.com/idldigital.site"
+            href={INSTAGRAM_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-[13.5px] font-semibold"
           >
             <InstagramIcon className="size-[18px] text-brand-blue-bright" />
-            @idldigital.site
+            {INSTAGRAM_HANDLE}
           </a>
         </div>
       </div>

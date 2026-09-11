@@ -1,9 +1,5 @@
-// Substitua pelo número real no formato internacional, sem espaços ou símbolos.
-export const WHATSAPP_NUMBER = "5500000000000";
-export const WHATSAPP_MESSAGE = "Olá! Quero fazer parte da Equipe GL como parceiro.";
-export const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
-  WHATSAPP_MESSAGE
-)}`;
+export const INSTAGRAM_HANDLE = "@gl.equipe";
+export const INSTAGRAM_URL = "https://instagram.com/gl.equipe";
 
 export const NAV_LINKS = [
   { href: "inicio", label: "Início" },
@@ -87,7 +83,7 @@ export const VANTAGENS = [
 ] as const;
 
 export const STEPS = [
-  { number: "01", title: "Entre no grupo pelo WhatsApp", desc: "Fale com a nossa equipe e confirme sua entrada." },
+  { number: "01", title: "Chame a gente no Instagram", desc: "Siga o perfil e envie uma mensagem para a nossa equipe." },
   { number: "02", title: "Receba seu link e materiais", desc: "Artes, vídeos e link exclusivo de divulgação." },
   { number: "03", title: "Divulgue seu conteúdo", desc: "Compartilhe com seu público do seu jeito." },
   { number: "04", title: "Receba sua porcentagem", desc: "Ganhos conforme o seu desempenho." },
@@ -97,7 +93,7 @@ export const FAQ_ITEMS = [
   {
     question: "Preciso pagar algo para ser parceiro?",
     answer:
-      "Não. A parceria com a Equipe GL é 100% gratuita. Você só precisa entrar no grupo pelo WhatsApp e começar a divulgar.",
+      "Não. A parceria com a Equipe GL é 100% gratuita. Você só precisa entrar em contato pelo Instagram e começar a divulgar.",
   },
   {
     question: "Como recebo meus ganhos?",

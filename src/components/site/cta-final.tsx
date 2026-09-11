@@ -3,7 +3,7 @@
 import { Check } from "lucide-react";
 import { BlurFade } from "@/components/ui/blur-fade";
 import { CrownIcon } from "./brand-icons";
-import { WhatsappCta } from "./whatsapp-cta";
+import { InstagramCta } from "./instagram-cta";
 import { PHONE_CHECKLIST } from "@/lib/site-data";
 
 export function CtaFinal() {
@@ -30,8 +30,8 @@ export function CtaFinal() {
           </BlurFade>
           <BlurFade inView delay={0.15}>
             <div>
-              <WhatsappCta>QUERO ENTRAR NO GRUPO →</WhatsappCta>
-              <p className="mt-3 text-[13px] text-brand-dim">Você será direcionado para o WhatsApp</p>
+              <InstagramCta>QUERO ENTRAR NO GRUPO →</InstagramCta>
+              <p className="mt-3 text-[13px] text-brand-dim">Você será direcionado para o Instagram</p>
             </div>
           </BlurFade>
           <BlurFade inView delay={0.2}>

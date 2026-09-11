@@ -4,7 +4,7 @@ import { BlurFade } from "@/components/ui/blur-fade";
 import { Particles } from "@/components/ui/particles";
 import { CrownIcon } from "./brand-icons";
 import { Icon } from "./icon";
-import { WhatsappCta } from "./whatsapp-cta";
+import { InstagramCta } from "./instagram-cta";
 import { MICRO_BENEFITS } from "@/lib/site-data";
 
 export function Hero() {
@@ -62,8 +62,8 @@ export function Hero() {
 
           <BlurFade inView delay={0.2}>
             <div className="pt-2">
-              <WhatsappCta>QUERO FAZER PARTE AGORA →</WhatsappCta>
-              <p className="mt-3 text-[13px] text-brand-dim">Você será direcionado para o WhatsApp</p>
+              <InstagramCta>QUERO FAZER PARTE AGORA →</InstagramCta>
+              <p className="mt-3 text-[13px] text-brand-dim">Você será direcionado para o Instagram</p>
             </div>
           </BlurFade>
         </div>

@@ -3,8 +3,8 @@
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { CrownIcon, WhatsAppIcon } from "./brand-icons";
-import { NAV_LINKS, WHATSAPP_URL } from "@/lib/site-data";
+import { CrownIcon, InstagramIcon } from "./brand-icons";
+import { NAV_LINKS, INSTAGRAM_URL } from "@/lib/site-data";
 
 export function Header() {
   const [open, setOpen] = useState(false);
@@ -82,12 +82,12 @@ export function Header() {
         </nav>
 
         <a
-          href={WHATSAPP_URL}
+          href={INSTAGRAM_URL}
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 rounded-full bg-gradient-to-b from-brand-blue-bright to-brand-blue-deep px-[22px] py-3 text-sm font-bold text-ink-950 shadow-[0_4px_20px_rgba(46,155,255,.4)] transition-transform hover:-translate-y-0.5 max-md:hidden"
         >
-          <WhatsAppIcon className="size-[1.1em]" />
+          <InstagramIcon className="size-[1.1em]" />
           FAZER PARTE
         </a>
 
