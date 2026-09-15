@@ -40,11 +40,19 @@ export const GAMES = [
     icon: "target",
     variant: "bubbleswin",
   },
+  {
+    id: "ballonswin",
+    name: "BALLONSWIN",
+    category: "Estoure os Balões",
+    desc: "Estoure os balões certos e multiplique seus ganhos num jogo cheio de tensão.",
+    icon: "circle",
+    variant: "ballonswin",
+  },
 ] as const;
 
 export const STATS = [
   { icon: "users", value: "+7 DÍGITOS", label: "movimentados com jogos de habilidade" },
-  { icon: "gamepad", value: "3 JOGOS", label: "ativos na plataforma" },
+  { icon: "gamepad", value: "4 JOGOS", label: "ativos na plataforma" },
   { icon: "rocket", value: "NOVOS JOGOS", label: "todos os meses" },
   { icon: "shield", value: "PARCERIA DE CONFIANÇA", label: "com suporte total" },
 ] as const;

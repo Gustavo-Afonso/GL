@@ -1,9 +1,10 @@
 import Image from "next/image";
 
-const SRC: Record<"candwin" | "blockwin" | "bubbleswin", string> = {
+const SRC: Record<"candwin" | "blockwin" | "bubbleswin" | "ballonswin", string> = {
   candwin: "/games/candwin.jpeg",
   blockwin: "/games/blockwin.jpeg",
   bubbleswin: "/games/bubbleswin.jpeg",
+  ballonswin: "/games/ballonswin.jpeg",
 };
 
 export function GamePhoto({
@@ -11,7 +12,7 @@ export function GamePhoto({
   alt,
   priority = false,
 }: {
-  variant: "candwin" | "blockwin" | "bubbleswin";
+  variant: "candwin" | "blockwin" | "bubbleswin" | "ballonswin";
   alt: string;
   priority?: boolean;
 }) {

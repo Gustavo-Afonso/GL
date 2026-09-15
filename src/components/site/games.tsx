@@ -18,11 +18,11 @@ export function Games() {
             Jogos para <span className="text-brand-blue-bright">divulgar</span>
           </h2>
           <p className="mt-3.5 max-w-[60ch] text-[15.5px] text-brand-muted">
-            Três jogos de habilidade prontos para o seu público, com novos lançamentos todos os meses.
+            Jogos de habilidade prontos para o seu público, com novos lançamentos todos os meses.
           </p>
         </BlurFade>
 
-        <div className="grid gap-6 md:grid-cols-3">
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {GAMES.map((game, i) => (
             <BlurFade key={game.id} inView delay={i * 0.08}>
               <article className="group relative aspect-[4/5] overflow-hidden rounded-2xl transition-transform duration-300 hover:-translate-y-1">
