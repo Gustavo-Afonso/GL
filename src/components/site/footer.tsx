@@ -1,4 +1,5 @@
-import { CrownIcon, InstagramIcon } from "./brand-icons";
+import Image from "next/image";
+import { InstagramIcon } from "./brand-icons";
 import { INSTAGRAM_HANDLE, INSTAGRAM_URL } from "@/lib/site-data";
 
 export function Footer() {
@@ -6,10 +7,7 @@ export function Footer() {
     <footer className="border-t border-brand-blue/20 py-8">
       <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-4.5 px-5 max-sm:flex-col max-sm:text-center">
         <div className="flex items-center gap-3">
-          <span className="flex size-9 items-center justify-center rounded-full border border-brand-blue-bright/45 bg-[radial-gradient(circle_at_32%_28%,#16223f,#060a16)]">
-            <CrownIcon className="size-[22px] text-brand-blue-bright" />
-          </span>
-          <strong className="font-display text-base font-extrabold italic">EQUIPE GL</strong>
+          <Image src="/logo.png" alt="Equipe GL" width={36} height={36} className="size-9 object-contain" />
         </div>
 
         <p className="text-center text-[13px] text-brand-dim">© 2026 Equipe GL. Todos os direitos reservados.</p>

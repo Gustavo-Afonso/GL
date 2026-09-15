@@ -1,9 +1,10 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Image from "next/image";
 import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { CrownIcon, InstagramIcon } from "./brand-icons";
+import { InstagramIcon } from "./brand-icons";
 import { NAV_LINKS, INSTAGRAM_URL } from "@/lib/site-data";
 
 export function Header() {
@@ -43,12 +44,7 @@ export function Header() {
     >
       <div className="mx-auto flex w-full max-w-6xl items-center justify-between gap-6 px-5">
         <a href="#inicio" className="flex items-center gap-2.5" aria-label="Equipe GL, início">
-          <span className="flex size-11 items-center justify-center rounded-full border border-brand-blue-bright/45 bg-[radial-gradient(circle_at_32%_28%,#16223f,#060a16)] shadow-[0_0_16px_rgba(46,155,255,.4)]">
-            <CrownIcon className="size-6 text-brand-blue-bright" />
-          </span>
-          <span className="font-display text-[19px] leading-none font-extrabold italic tracking-wide">
-            EQUIPE GL
-          </span>
+          <Image src="/logo.png" alt="Equipe GL" width={44} height={44} className="size-11 object-contain" priority />
         </a>
 
         <nav

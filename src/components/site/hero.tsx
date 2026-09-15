@@ -1,8 +1,8 @@
 "use client";
 
+import Image from "next/image";
 import { BlurFade } from "@/components/ui/blur-fade";
 import { Particles } from "@/components/ui/particles";
-import { CrownIcon } from "./brand-icons";
 import { Icon } from "./icon";
 import { InstagramCta } from "./instagram-cta";
 import { MICRO_BENEFITS } from "@/lib/site-data";
@@ -73,22 +73,14 @@ export function Hero() {
             aria-hidden="true"
             className="absolute aspect-square w-[min(480px,92%)] animate-halo-breathe rounded-full bg-[radial-gradient(circle,rgba(46,155,255,.38),rgba(46,155,255,.08)_55%,transparent_72%)] blur-[4px]"
           />
-          <div
-            role="img"
-            aria-label="Emblema Equipe GL, coroa dourada sobre brasão azul"
-            className="relative z-10 flex aspect-square w-[min(360px,78%)] items-center justify-center rounded-full border border-brand-blue-bright/40 bg-[radial-gradient(circle_at_34%_28%,#182543,#050810_72%)] shadow-[0_0_0_1px_rgba(46,155,255,.15),0_0_60px_rgba(46,155,255,.35),inset_0_0_40px_rgba(0,0,0,.6)] before:absolute before:inset-3.5 before:rounded-full before:border before:border-brand-blue-bright/28 before:content-['']"
-          >
-            <div className="flex flex-col items-center gap-1.5 text-center">
-              <CrownIcon className="size-16 text-brand-blue-bright drop-shadow-[0_0_12px_rgba(0,168,255,.65)]" />
-              <p className="font-display leading-[0.85] font-extrabold italic">
-                <span className="block text-[34px] tracking-wide text-white">EQUIPE</span>
-                <span className="block text-[52px] text-brand-blue-bright [text-shadow:0_0_22px_rgba(0,168,255,.7)]">
-                  GL
-                </span>
-              </p>
-              <span className="mt-1 h-px w-9 bg-brand-blue-bright/50" />
-            </div>
-          </div>
+          <Image
+            src="/logo.png"
+            alt="Emblema Equipe GL"
+            width={400}
+            height={400}
+            className="relative z-10 w-[min(360px,78%)] drop-shadow-[0_0_50px_rgba(46,155,255,.45)]"
+            priority
+          />
           <p className="absolute right-[2%] bottom-[2%] rotate-[-6deg] text-right font-script text-[clamp(18px,2.4vw,26px)] leading-[1.15] font-bold text-[#7ec4ff] [text-shadow:0_0_20px_rgba(46,155,255,.45)] max-md:static max-md:mt-2 max-md:rotate-[-3deg] max-md:text-left">
             Juntos
             <br />

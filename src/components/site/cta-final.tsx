@@ -1,8 +1,8 @@
 "use client";
 
 import { Check } from "lucide-react";
+import Image from "next/image";
 import { BlurFade } from "@/components/ui/blur-fade";
-import { CrownIcon } from "./brand-icons";
 import { InstagramCta } from "./instagram-cta";
 import { PHONE_CHECKLIST } from "@/lib/site-data";
 
@@ -46,9 +46,8 @@ export function CtaFinal() {
         <BlurFade inView delay={0.1} className="flex justify-center max-md:order-first">
           <div className="w-[min(300px,88%)] rounded-[38px] border border-brand-blue-bright/30 bg-[linear-gradient(160deg,#141c33,#070a14)] p-4 shadow-[0_0_0_1px_rgba(46,155,255,.1),0_30px_70px_rgba(0,0,0,.55),0_0_50px_rgba(46,155,255,.18)]">
             <div className="flex flex-col gap-4 rounded-[26px] border border-brand-blue/18 bg-ink-950 px-5 py-6.5">
-              <div className="mx-auto flex size-13 items-center justify-center rounded-full border border-brand-blue-bright/40 bg-[radial-gradient(circle_at_34%_28%,#182543,#050810_72%)] shadow-[0_0_24px_rgba(46,155,255,.4)]">
-                <CrownIcon className="size-6.5 text-brand-blue-bright" />
-              </div>
+              <Image src="/logo.png" alt="Equipe GL" width={52} height={52} className="mx-auto size-13 object-contain" />
+
               <ul className="mt-1 flex flex-col gap-2.5">
                 {PHONE_CHECKLIST.map((item) => (
                   <li key={item} className="flex items-center gap-2.5 text-[13px] font-semibold text-brand-muted">
